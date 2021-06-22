@@ -1,0 +1,121 @@
+{
+  "data": {
+    "deal_sets": {
+      "deal_set": [
+        {
+          "deals": {
+            "deal": [
+              {
+                "parties": {
+                  "party": [
+                    {
+                      "customer_transaction_id": "e171ec31-75b4-4fd6-ada1-nesto",
+                      "individual": {
+                        "name": {
+                          "first": "John",
+                          "last": "Deere"
+                        },
+                        "contact_points": {
+                          "contact_point": [
+                            {
+                              "contact_point_telephone": {
+                                "value": "+1234567890"
+                              },
+                              "email": "test@test.com"
+                            }
+                          ]
+                        }
+                      },
+                      "roles": {
+                        "role": [
+                          {
+                            "borrower": {
+                              "birth_date": "01/01/1984",
+                              "employers": {
+                                "employer": [
+                                  {
+                                    "legal_entity": {
+                                      "full_name": "Uber"
+                                    }
+                                  }
+                                ]
+                              },
+                              "residences": {
+                                "residence": [
+                                  {
+                                    "address": {
+                                      "additional_line_text": "None",
+                                      "city": "NEW YORK",
+                                      "country": "US",
+                                      "line_text": "33 IRVING PLACE",
+                                      "postal_code": "10003",
+                                      "state": "NY"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "taxpayer_identifiers": {
+                        "taxpayer_identifier": [
+                          {
+                            "value": "317-21-0001"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "document_sets": {
+      "document_set": [
+        {
+          "documents": {
+            "document": [
+              {
+                "document_classification": {
+                  "document_classes": {
+                    "document_class": [
+                      {
+                        "staircase_type": "Staircase",
+                        "type": "BorrowerApproval"
+                      }
+                    ]
+                  }
+                },
+                "foreign_objects": {
+                  "foreign_object": [
+                    {
+                      "description": "BorrowerApproval",
+                      "mime_type_identifier": "application/pdf",
+                      "name": "01F1Z5KG9E3CPD78P7GYB3TYC1.pdf",
+                      "staircase_blob_id": "01F1Z5KG9E3CPD78P7GYB3TYC1"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }  
+  },
+  "metadata": {
+    "created_at": "2021-05-11T03:39:27.129434-04:00",
+    "updated_at": "2021-05-11T03:39:27.129434-04:00",
+    "validation": false,
+    "partner_name": "string",
+    "dry_run": true,
+    "exclude_borrower": true,
+    "manual_verification": true,
+    "verification_state": "IN_PROGRESS",
+    "staircase_language_version": "string"
+  }
+}
